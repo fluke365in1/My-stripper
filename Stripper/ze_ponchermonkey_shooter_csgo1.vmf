@@ -4,12 +4,12 @@ modify:
 	match:
 	{
 		"targetname" "MainNpc_SelectCase"
-    "classname" "logic_case"
+		"classname" "logic_case"
 	}
 	delete:
 	{
-    "OnCase04" "MainNpc_Sound2AddOutputmessage megaman/anal sound 2.mp301"
-    "OnCase04" "MainNpc_Sound1AddOutputmessage megaman/anal sound 1.mp301"
+		"OnCase04" "MainNpc_Sound2AddOutputmessage megaman/anal sound 2.mp301"
+		"OnCase04" "MainNpc_Sound1AddOutputmessage megaman/anal sound 1.mp301"
 	}
 }
 
@@ -18,12 +18,12 @@ modify:
 	match:
 	{
 		"targetname" "Ambient_1_Case"
-    "classname" "logic_case"
+  		"classname" "logic_case"
 	}
 	delete:
 	{
-    "OnCase04" "Level_StockerRunScriptCodePlayMusicFromIndex(3,7);0.01-1"
-    "OnCase11" "Level_StockerRunScriptCodePlayMusicFromIndex(3,6);0.01-1"
+		"OnCase04" "Level_StockerRunScriptCodePlayMusicFromIndex(3,7);0.01-1"
+		"OnCase11" "Level_StockerRunScriptCodePlayMusicFromIndex(3,6);0.01-1"
 	}
 }
 
@@ -32,18 +32,18 @@ modify:
 	match:
 	{
 		"targetname" "Ambient_2_Case"
-    "classname" "logic_case"
+		"classname" "logic_case"
 	}
 	delete:
 	{
-    "OnCase06" "Level_StockerRunScriptCodePlayMusicFromIndex(3,12);0.01-1"
+		"OnCase06" "Level_StockerRunScriptCodePlayMusicFromIndex(3,12);0.01-1"
 		"OnCase07" "Level_StockerRunScriptCodePlayMusicFromIndex(3,13);0.01-1"
 		"OnCase08" "Level_StockerRunScriptCodePlayMusicFromIndex(3,8);0.01-1"
 		"OnCase09" "Level_StockerRunScriptCodePlayMusicFromIndex(3,14);0.01-1"
-    "OnCase02" "Level_StockerRunScriptCodePlayMusicFromIndex(3,22);0.01-1"
-    "OnCase04" "Level_StockerRunScriptCodePlayMusicFromIndex(3,24);0.01-1"
-    "OnCase05" "Level_StockerRunScriptCodePlayMusicFromIndex(3,25);0.01-1"
-    "OnCase15" "Level_StockerRunScriptCodePlayMusicFromIndex(3,28);0.01-1"
+		"OnCase02" "Level_StockerRunScriptCodePlayMusicFromIndex(3,22);0.01-1"
+		"OnCase04" "Level_StockerRunScriptCodePlayMusicFromIndex(3,24);0.01-1"
+		"OnCase05" "Level_StockerRunScriptCodePlayMusicFromIndex(3,25);0.01-1"
+		"OnCase15" "Level_StockerRunScriptCodePlayMusicFromIndex(3,28);0.01-1"
 	}
 }
 
@@ -58,11 +58,11 @@ modify:
 	match:
 	{
 		"targetname" "MiscSound_Case"
-    "classname" "logic_case"
+		"classname" "logic_case"
 	}
 	delete:
 	{
-    "OnCase14" "Level_StockerRunScriptCodePlayMusicFromIndex(5,11);0.01-1"
-    "OnCase01" "Level_StockerRunScriptCodePlayMusicFromIndex(5,12);0.01-1"
+		"OnCase14" "Level_StockerRunScriptCodePlayMusicFromIndex(5,11);0.01-1"
+		"OnCase01" "Level_StockerRunScriptCodePlayMusicFromIndex(5,12);0.01-1"
 	}
 }
